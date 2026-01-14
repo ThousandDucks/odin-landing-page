@@ -6,4 +6,4 @@ The webpage is for a travel planning service.
 
 ## Image Credits
 
-- Image from [Pickpik](https://www.pickpik.com/)
+Image from [Pickpik](https://www.pickpik.com/)
