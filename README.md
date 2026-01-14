@@ -1,3 +1,9 @@
 # odin-landing-page
 
-https://www.pickpik.com/travel-pinned-pinning-maps-atlas-cartography-56182
+This is the second foundation project for the Odin Project.  
+This project focuses on using the css and html I have learnt so far.  
+The webpage is for a travel planning service.
+
+## Image Credits
+
+- Image from [Pickpik](https://www.pickpik.com/)
