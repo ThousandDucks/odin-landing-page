@@ -6,4 +6,4 @@ The webpage is for an hypothetical travel planning service.
 
 ## Image Credits
 
-Image from [here]([https://www.pickpik.com/](https://www.pickpik.com/travel-pinned-pinning-maps-atlas-cartography-56182))
+Image from [here]((https://www.pickpik.com/travel-pinned-pinning-maps-atlas-cartography-56182))
