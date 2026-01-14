@@ -3,22 +3,77 @@
     <head>
         <meta charset="UTF-8">
         <title>Landing page</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <div class="top">
-            <h1>Header logo</h1>
-            <ul>
-                <li>header link 1</li>
-                <li>header link 2</li>
-                <li>header link 3</li>
-            </ul>
-            <h2>This website is awesome</h2>
-            <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast.</p>
-            <button type="button">Sign up!</button>
-            <img src="images/hokkaido-flower-fields.jpg" alt="Image of flower fields from Hokkaido." width="300" height="auto">
+        <!-- header -->
+        <div class="header-hero">
+            <div class="header">
+                <h1 class="logo-text">Header logo</h1>
+                <ul class="nav-links">
+                    <li><a href="#">header link 1</a></li>
+                    <li><a href="#">header link 2</a></li>
+                    <li><a href="#">header link 3</a></li>
+                </ul>
+            </div>
+            <!-- hero section -->
+            <div class="hero">
+                <div class="hero-text">
+                    <h2 class ="hero-main-text">This website is awesome</h2>
+                    <p class="hero-secondary-text">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast.</p>
+                    <button type="button">Sign up!</button>
+                </div>
+                <div class="hero-image">
+                    <img src="images/map-image.jpg" alt="Image of pin on map.">
+                </div>
+            </div>
         </div>
 
+        <!-- icons section -->
+        <div class="icons">
+            <h1 class="icons-header">Some random information.</h1>
+
+            <div class="icon-grid">
+                <div class="feature">
+                    <img src="images/map_route.png" alt="Icon image of a map showing a route." width="100" height="auto">
+                    <div>Plan Your Route</div>
+                </div>
+                <div class="feature">
+                    <img src="images/location_pin.png" alt="Icon image of a location pin." width="100" height="auto">
+                    <div>Discover Places</div>
+                </div>
+                <div class="feature">
+                    <img src="images/wallet.png" alt="Icon image of a wallet." width="100" height="auto">
+                    <div>Manage Your Budget</div>
+                </div>
+                <div class="feature">
+                    <img src="images/group.png" alt="Icon image of a group of people" width="100" height="auto">
+                    <div>Travel Together</div>
+                </div>
+            </div>   
+        </div>
         
+        <!-- review section -->
+        <div class="review">
+            <p>“This made planning our trip incredibly easy. Everything was organised in one place, and we stayed within budget the whole time.”</p>
+            <div> - Alex M., Student Traveller</div>
+        </div>
+
+        <!-- call to action section -->
+        <div class="call-to-action">
+            <div>Call to action! It's time!</div>
+            <div>Sign up for our product by clicking that button right over there!</div>
+            <button type="button">Sign up!</button>
+        </div>
+        
+        <!-- footer section -->
+        <div class="footer">
+            Copyright &copy; The Odin Project 2025
+        </div>
     </body>
 </html>
